@@ -3,7 +3,7 @@
 //Transformaciones de textos
 
 var numero = 444;
-var texto1 = "Bienvenido al curso Javascript curso de Victor Robles";
+var texto1 = "Bienvenido al curso de Javascript curso de Victor Robles";
 var texto2 = "es muy buen curso";
 
 //de numero a string
@@ -36,6 +36,11 @@ var busqueda7 = texto1.charAt(44);
 var busqueda8 = texto1.startsWith("Bi");
 var busqueda9 = texto1.endsWith("Victor Robles");
 var busqueda9 = texto1.includes("Javascript");
+var busqueda10 = texto1.replace("Javascript","Symphony");
+var busqueda11 = texto1.slice(14);
+var busqueda12 = texto1.slice(14,22);
+var busqueda13 = texto1.split(" ");
+var busqueda14 = texto1.trim();
 //console.log(busqueda);
 //console.log(busqueda2);
-console.log(busqueda9);
+console.log(busqueda14 //saca los espacios al principio y al final de un string
