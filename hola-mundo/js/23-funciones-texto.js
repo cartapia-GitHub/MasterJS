@@ -43,4 +43,4 @@ var busqueda13 = texto1.split(" ");
 var busqueda14 = texto1.trim();
 //console.log(busqueda);
 //console.log(busqueda2);
-console.log(busqueda14 //saca los espacios al principio y al final de un string
+console.log(busqueda14); //saca los espacios al principio y al final de un string

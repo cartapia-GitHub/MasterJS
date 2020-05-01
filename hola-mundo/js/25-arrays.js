@@ -32,10 +32,30 @@ document.write("<ul>");
 
 /*lenguajes.forEach((elemento)=>{
 	document.write("<li>"+elemento+"</li>");
-});*/
+});
 
 lenguajes.forEach((elemento, index, data)=>{
 	document.write("<li>"+index+" "+elemento+"</li>");
-});
+});*/
+
+for(let lenguaje in lenguajes){
+	document.write("<li>"+lenguajes[lenguaje]+"</li>");
+
+}
 
 document.write("</ul>");
+
+//Busquedas
+/*var busqueda = lenguajes.find(function(lenguaje){
+	return lenguaje == "PHP";
+});*/
+
+/*var busqueda = lenguajes.find(lenguaje =>
+	lenguaje == "PHP");*/
+var precios = [10, 20, 50, 80, 12];
+//var busqueda = lenguajes.findIndex(lenguaje =>
+//	lenguaje == "JS");
+//some entrega true or false dependiendo de la condicion
+var busqueda = precios.some(precio => 
+	precio <10);
+console.log(busqueda);
