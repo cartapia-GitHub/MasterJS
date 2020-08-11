@@ -59,10 +59,10 @@ console.log(invertedArray);
 document.write("El arreglo tiene : "+orderedArray.length+" elementos");
 
 var busqueda = parseInt(prompt("ingresa un valor a buscar :",0));
-	var posicion = orderedArray.findIndex(valorB =>
+	var posicion = arrayOrdered.findIndex(valorB =>
 	valorB == busqueda);
 	
-	if(posicion && posicion!=-1){
+	if(posicion || posicion!=(-1)){
 		document.write("<hr/><h3>ENCONTRADO "+busqueda+"</h3>");
 		document.write("<h3>Posición de la búsqueda: "+posicion+"</h3><hr/>");
 	}
