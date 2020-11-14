@@ -41,7 +41,7 @@ $(document).ready(function(){
 			error: function(){
 				console.log("Ha ocurrido un error");
 			},
-			timeout: 10000
+			timeout: 8000
 		});
 
 		return false;
